@@ -61,7 +61,8 @@ bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+F3 exec ranger
 bindsym $mod+F4 exec thunderbird
 bindsym $mod+Shift+F3 exec gksu pcmanfm
-bindsym $mod+F5 exec terminal -e 'mocp'
+# bindsym $mod+F5 exec terminal -e 'mocp'
+bindsym $mod+F5 exec discord
 bindsym $mod+F6 exec keepassxc
 bindsym $mod+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b
