@@ -195,6 +195,9 @@ bindsym $mod+Shift+0 move container to workspace $ws0; workspace $ws0
 # Open applications on specific workspaces
 assign [class="Thunderbird"] $ws9
 assign [class="keepassxc"] $ws6
+assign [class="discord"] $ws5
+assign [class="jetbrains-pycharm"] $ws1
+assign [class="jetbrains-clion"] $ws1
 # assign [class="Pale moon"] $ws2
 # assign [class="Pcmanfm"] $ws3
 # assign [class="Skype"] $ws5
@@ -229,6 +232,7 @@ for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
 
 for_window [class="matplotlib"] floating enable
+for_window [class="Matplotlib"] floating enable
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -309,7 +313,8 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 # exec --no-startup-id blueman-applet
 # exec_always --no-startup-id sbxkb
-exec --no-startup-id start_conky_maia
+exec --no-startup-id /home/user/.configme/start_conky
+# exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
 #exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
