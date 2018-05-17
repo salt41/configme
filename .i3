@@ -198,6 +198,7 @@ assign [class="keepassxc"] $ws6
 assign [class="discord"] $ws5
 assign [class="jetbrains-pycharm"] $ws1
 assign [class="jetbrains-clion"] $ws1
+assign [class="sun-awt-X11-XFramePeer"] $ws1
 # assign [class="Pale moon"] $ws2
 # assign [class="Pcmanfm"] $ws3
 # assign [class="Skype"] $ws5
