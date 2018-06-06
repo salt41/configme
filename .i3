@@ -199,6 +199,7 @@ assign [class="discord"] $ws5
 assign [class="jetbrains-pycharm"] $ws1
 assign [class="jetbrains-clion"] $ws1
 assign [class="jetbrains-idea"] $ws1
+assign [class="jetbrains-webstorm"] $ws1
 assign [class="sun-awt-X11-XFramePeer"] $ws1
 # assign [class="Pale moon"] $ws2
 # assign [class="Pcmanfm"] $ws3
