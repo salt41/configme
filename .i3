@@ -236,6 +236,8 @@ for_window [class="Xfburn"] floating enable
 
 for_window [class="matplotlib"] floating enable
 for_window [class="Matplotlib"] floating enable
+for_window [class="xarchiver"] floating enable
+for_window [class="Xarchiver"] floating enable
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
