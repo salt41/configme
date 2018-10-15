@@ -27,7 +27,8 @@ font xft:URWGothic-Book 11
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec terminal
+set $term konsole
+bindsym $mod+Return exec $term
 
 # kill focused window
 bindsym $mod+q kill
@@ -43,7 +44,7 @@ bindsym $mod+z exec --no-startup-id morc_menu
 ################################################################################################
 
 exec --no-startup-id volumeicon
-bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
+bindsym $mod+Ctrl+m exec $term -e 'alsamixer'
 #exec --no-startup-id pulseaudio
 #exec --no-startup-id pa-applet
 #bindsym $mod+Ctrl+m exec pavucontrol
@@ -55,13 +56,13 @@ bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up
 bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
 
 # Start Applications
-bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
+bindsym $mod+Ctrl+b exec $term -e 'bmenu'
 bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+F3 exec ranger
 bindsym $mod+F4 exec thunderbird
 bindsym $mod+Shift+F3 exec gksu pcmanfm
-# bindsym $mod+F5 exec terminal -e 'mocp'
+# bindsym $mod+F5 exec $term -e 'mocp'
 bindsym $mod+F5 exec discord
 bindsym $mod+F6 exec keepassxc
 bindsym $mod+t exec --no-startup-id pkill compton
@@ -238,6 +239,7 @@ for_window [class="matplotlib"] floating enable
 for_window [class="Matplotlib"] floating enable
 for_window [class="xarchiver"] floating enable
 for_window [class="Xarchiver"] floating enable
+for_window [class="jetbrains-toolbox"] floating enable
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus

@@ -1,4 +1,4 @@
-alias ll="ls -al"
+alias ll="ls -alh"
 
 export EDITOR="/usr/bin/vim"
 export LD_LIBRARY_PATH="/usr/local/lib"
