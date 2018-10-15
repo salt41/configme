@@ -3,5 +3,6 @@ alias ll="ls -alh"
 export EDITOR="/usr/bin/vim"
 export LD_LIBRARY_PATH="/usr/local/lib"
 export TERMINFO="/usr/share/terminfo"
+export PATH=$PATH:~/.local/bin
 
 set -o vi
