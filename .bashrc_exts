@@ -1,4 +1,5 @@
 alias ll="ls -alh"
+alias gti="echo VRRROOOOOOOOM!! ; git"
 
 export EDITOR="/usr/bin/vim"
 export LD_LIBRARY_PATH="/usr/local/lib"
@@ -6,3 +7,5 @@ export TERMINFO="/usr/share/terminfo"
 export PATH=$PATH:~/.local/bin:~/.local/share/applications
 
 set -o vi
+
+shopt -s autocd

@@ -194,7 +194,7 @@ bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws0; workspace $ws0
 
 # Open applications on specific workspaces
-assign [class="Thunderbird"] $ws9
+assign [class="Thunderbird"] $ws4
 assign [class="keepassxc"] $ws6
 assign [class="discord"] $ws5
 assign [class="jetbrains-pycharm"] $ws1
