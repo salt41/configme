@@ -73,7 +73,7 @@ bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 #bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
-bindsym $mod+c [title="calc"] scratchpad show, move position center
+bindsym $mod+c [title="c4lc"] scratchpad show, move position center
 
 focus_follows_mouse no
 
@@ -241,7 +241,7 @@ for_window [class="Matplotlib"] floating enable
 for_window [class="xarchiver"] floating enable
 for_window [class="Xarchiver"] floating enable
 for_window [class="jetbrains-toolbox"] floating enable
-for_window [title="calc"] move scratchpad
+for_window [title="c4lc"] move scratchpad
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -329,7 +329,7 @@ exec --no-startup-id /home/user/.configme/start_conky
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 
-exec_always --no-startup-id urxvt -T 'calc' -e 'python' 
+exec_always --no-startup-id urxvt -T 'c4lc' -e 'python' 
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
